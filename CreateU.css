@@ -1,0 +1,193 @@
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem 0;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    height: 20px;
+    line-height: 6px;
+   
+    margin-bottom: 0px;
+    
+}
+
+body{
+   
+    justify-content:space-between;
+    background: linear-gradient(to bottom, #01d9fa, #001220);
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    width: 350px;
+    margin: 0 auto;
+    padding:20px;
+    background: #fff;
+    border-radius: 0px;
+    box-shadow: 5px 20px 50px #000;
+    text-align: center;
+    font-size: 1.2em;
+    flex-grow: 1;
+    position:relative;
+    max-width: 450px;
+   
+    
+}
+   
+
+header h1 {
+    color: #fefefe;
+    position: relative;
+    bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #060037;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6d44b8;
+}
+
+p {
+    margin-top: 20px;
+}
+
+p a {
+    color: #573b8a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #6d44b8;
+}
+/* Estilo para los botones sociales */
+.social-log {
+    color: #080808;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+}
+  
+.social-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    gap:10px;
+    position: relative;
+    top:-70px;
+}
+  
+.social-btn {
+    width: 13%;
+    height: 40px;
+    background: #6f0202;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+  
+.social-btn:hover {
+    background: #6d44b8;
+}
+  
+.social-btn img {
+    border-radius: 25px;
+    width: 30px;
+   
+    
+}
+
+.fb-btn img {
+    border-radius: 25px;
+    width: 30px;
+}
+
+.fb-btn {
+    width: 13%;
+    height: 40px;
+    background: #0023ea;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background 0.3s;
+}  
+
+.m-btn{
+    width: 13%;
+    height: 40px;
+    background: #00771c;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background 0.3s;   
+}
+.m-btn img {
+    border-radius: 25px;
+    width: 30px;
+}
+  
+footer {
+    
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 20px 0; /* Espaciado interno arriba y abajo */
+   
+    color: rgb(0, 0, 0); /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    font-family: 'Franklin Gothic Medium'; /* Fuente coherente */
+    font-size: 1rem; /* Tamaño de fuente */
+    display: flex; /* Cambia a flexbox para alinear horizontalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Alinea el contenido verticalmente */
+    margin-top: auto;
+    position: relative;
+    top: -100px;
+}
+

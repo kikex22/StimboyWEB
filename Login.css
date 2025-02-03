@@ -1,0 +1,194 @@
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem 0;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    height: 20px;
+    line-height: 6px;
+   
+    margin-bottom: 0px;
+    
+    
+}
+
+html{
+    height: 100%; /* Asegura que el HTML ocupe toda la altura */
+    overflow: hidden;
+     /* Evita el desplazamiento de la página */
+}
+
+header h1{
+    position: relative;
+    bottom: 10px;
+}
+body{
+    background: linear-gradient(to bottom, #01d9fa, #001220);
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.main {
+    width: 450px;
+    margin:0 auto;
+    padding:40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 100px;
+   /* max-width: 450px;
+    overflow-y: auto; /* Activa el desplazamiento vertical */
+   /* max-height: 80vh; /* Limita la altura para mostrar el scroll */
+    /*scrollbar-width: thin; /* Personaliza el grosor del scroll en navegadores soportados */
+    /*scrollbar-color: #888 transparent; /* Color del scroll */
+    flex-grow:1;
+    overflow-y: auto; /* Activa el desplazamiento vertical dentro del .main */
+    box-sizing: border-box;
+}
+.other-log{
+    position:relative;
+    top:50px;
+    font-family:'Franklin Gothic Medium' ;
+}
+form{position: relative;
+    top:20px;
+    
+}
+form label{
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+.email{
+    position: relative;
+    bottom: 15px;
+}
+.password{
+    position: relative;
+    bottom: 15px;
+}
+form input {
+    width: 90%; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1rem; /* Tamaño de fuente */
+    margin-bottom: 30px;
+}
+form button {
+    padding: 10px 20px; /* Espaciado interno */
+    width: 90%; /* Ocupa todo el ancho disponible */
+    background-color: #0d223b; /* Fondo verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1rem; /* Tamaño de fuente */
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium' ;
+    cursor: pointer; /* Manito al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+    margin-top: 10px;;
+}
+
+.social-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    gap:10px;
+    position: relative;
+    height:140px;
+    
+}
+.crearCuenta{
+    position: relative;
+    top: 50px;
+    font-family: 'Franklin Gothic Medium';
+}
+  
+.google-btn {
+    width: 13%;
+    height: 40px;
+    background: #6f0202;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+  
+.google-btn:hover {
+    background: #6d44b8;
+}
+  
+.google-btn img {
+    border-radius: 25px;
+    width: 30px;
+   
+    
+}
+
+.facebook-btn img {
+    border-radius: 25px;
+    width: 30px;
+}
+
+.facebook-btn {
+    width: 13%;
+    height: 40px;
+    background: #0023ea;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background 0.3s;
+}  
+
+.microsoft-btn{
+    width: 13%;
+    height: 40px;
+    background: #00771c;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background 0.3s;   
+}
+.microsoft-btn img {
+    border-radius: 25px;
+    width: 30px;
+}
+
+footer {
+    
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 20px 0; /* Espaciado interno arriba y abajo */
+   
+    color: rgb(0, 0, 0); /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    font-family: 'Franklin Gothic Medium'; /* Fuente coherente */
+    font-size: 1rem; /* Tamaño de fuente */
+    display: flex; /* Cambia a flexbox para alinear horizontalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Alinea el contenido verticalmente */
+    margin-top: auto;
+    position: relative;
+    bottom: 70px;
+}
+

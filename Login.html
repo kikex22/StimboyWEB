@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Iniciar sesión</title>
+        <link rel="stylesheet" href="Login.css">
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script type="module" src="Login.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <header>
+                <h1>StimBoy</h1>
+            </header>
+            <div class="main">
+                <form @submit.prevent="iniciarSesion">
+                    <label for="emailInput" class="email" id="emaillabel">Correo:</label>
+                    <input type="email" id="email" v-model="email" name="email" required>
+                    <label for="passwordInput" class="password" id="passwordlabel">Contraseña:</label>
+                    <input class="PassInput" type="password" id="password" v-model="password" name="password" required>
+                    <button class="button" type="submit">Iniciar sesión</button>
+                </form>
+                <p v-if="loginMessage" :style="{ color: loginMessageColor, fontWeight: 'bold', marginTop: '10px' }">
+                    {{ loginMessage }}
+                </p>
+                <p class="crearCuenta">¿Aún no tienes cuenta? <a href="CreateA.html">Crea una cuenta aquí</a></p>
+                <p class="other-log">Inicia sesión con:</p>
+                <div class="social-btns">
+                    <button class="google-btn" @click="googleSignIn">
+                        <img src="google.png" alt="google" />
+                    </button>
+                    <button class="facebook-btn" @click="facebookSignIn">
+                        <img src="facebook.png" alt="facebook" />
+                    </button>
+                    <button class="microsoft-btn" @click="microsoftSignIn">
+                        <img src="microsoft.png" alt="microsoft" />
+                    </button>
+                </div>
+                <footer>
+                    <p>&copy; 2024 StimBoy. Todos los derechos reservados.</p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
